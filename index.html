@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Favorite Movies</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<link rel="stylesheet" href="src/styles.css" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="title">
+			Favorite Movies
+		</h1>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					The Notebook
+				</div>
+				<div class="col-3">
+					A Walk to Remember
+				</div>
+				<div class="col-3">
+					Armageddon
+				</div>
+				<div class="col-3">
+					Purple Heart
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					The Notebook
+				</div>
+				<div class="col-6">
+					A Walk to Remember
+				</div>
+				<div class="col-6">
+					Armageddon
+				</div>
+				<div class="col-6">
+					Purple Heart
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					The Devil Wears Prada
+				</div>
+				<div class="col-4">
+					A Star is Born
+				</div>
+				<div class="col-4">
+					Legally Blonde
+				</div>
+				<!-- <div class="col-3">
+						Purple Heart
+				</div> -->
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					Titanic
+				</div>
+				<div class="col-6">
+					50 First Dates
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="container">
+			<div class="row">
+					<div class="col">
+						Clueless
+					</div>
+				</div>
+			</div> -->
+	</div>
+	<br>
+	<div class="container-1">
+		<div class="row">
+			<div class="col-6">
+				<strong>
+					Bootstrap Grid System
+				</strong>
+				<p>
+					Bootstrap's grid system allows up to 12 columns across the page. If
+					you do not want to use all 12 column individually, you can group the
+					columns together to create wider columns:
+				</p>
+				<img class="col-12" src="images/BootstrapGrids3.jpg" />
+				<p>
+					Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size:
+					On a big screen it might look better with the content organized in three columns, but on a small screen
+					it would be better if the content items were stacked on top of each other.
+				</p>
+
+				<p>
+					<strong>
+						Basic Structure of a Bootstrap Grid
+						The following is a basic structure of a Bootstrap grid:
+					</strong>
+
+				</p>
+				<br>
+				<img src="images/GridStructure.jpg" class="col-12" />
+				</br>
+
+				
+			</div>
+
+			<div class="col-6">
+
+				<!-- This is the start of the second row -->
+				<div class="row">
+					<div class="col-6">
+						<strong> Grid System Rules </strong>
+					</div>
+				</div>
+
+				<ul>
+					<strong>Some Bootstrap grid system rules:</strong>
+					<li>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper
+						alignment and
+						padding
+					<li>Use rows to create horizontal groups of columns
+					<li>Content should be placed within columns, and only columns may be immediate children of rows
+					<li>Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts
+					<li>Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the
+						first and
+						last column via negative margin on .rows
+					<li>Grid columns are created by specifying the number of 12 available columns you wish to span. For example,
+						three
+						equal columns would use three .col-sm-4
+					<li>Column widths are in percentage, so they are always fluid and sized relative to their parent element
+
+				</ul>
+
+			</div>
+
+		</div>
+	</div>
+	</div>
+	<!-- <div id="app"></div> -->
+	<script src="src/index.js"></script>
+
+	<!-- This is the summary that goes under the 
+		Structure of the Bootstrap Grid -->
+	<div class="container-2">
+		<div class="row">
+			<div class="col-6">
+				So, to create the layout you want, create a container ( < div class="container">). Next, create a row (
+					). Then, add the desired number of columns (tags with appropriate .col-*-* classes). Note that numbers
+					in .col-*-* should always add up to 12 for each row.
+			</div>
+		</div>
+</body>
+
+	<!-- You can create a variety of lists using HTML and style them with CSS. Here are a few examples:
+	
+	1. Unordered List (bulleted list):
+	HTML:
+	```
+	<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	</ul>
+	```
+	CSS:
+	```
+	ul {
+	list-style-type: disc; /* bulleted style */
+	/* Additional styling properties */
+	}
+	```
+	
+	2. Ordered List (numbered list):
+	HTML:
+	```
+	<ol>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	</ol>
+	```
+	CSS:
+	```
+	ol {
+	list-style-type: decimal; /* numbered style */
+	/* Additional styling properties */
+	}
+	```
+	
+	3. Definition List:
+	HTML:
+	```
+	<dl>
+	<dt>Term 1:</dt>
+	<dd>Definition 1</dd>
+	<dt>Term 2:</dt>
+	<dd>Definition 2</dd>
+	<dt>Term 3:</dt>
+	<dd>Definition 3</dd>
+	</dl>
+	```
+	CSS:
+	```
+	dl {
+	/* Additional styling properties */
+	}
+	
+	dt {
+	/* Additional styling properties */
+	}
+	
+	dd {
+	/* Additional styling properties */
+	}
+	```
+	
+	4. Nested List:
+	HTML:
+	```
+	<ul>
+	<li>Item 1</li>
+	<li>Item 2
+	<ul>
+	<li>Subitem 1</li>
+	<li>Subitem 2</li>
+	</ul>
+	</li>
+	<li>Item 3</li>
+	</ul>
+	```
+	CSS:
+	```
+	ul {
+	/* Additional styling properties */
+	}
+	
+	ul ul {
+	/* Additional styling properties for nested list */
+	}-->
+	
+	</html>

@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  border: 12px solid #b22222;
+  background-color: lightblue;
+  font-size: 22px;
+}
+
+.title {
+  background-color: aqua;
+}
+
+.container-1,
+.container-2 {
+  font-size: 22px;
+}
